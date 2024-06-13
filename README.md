@@ -4,7 +4,7 @@
 
 ## Modify
 
-Modifying the code requires NodeJs to be installed. Reference their [page](https://nodejs.org/) for more information.
+Modifying the code requires nodejs to be installed. Reference their [page](https://nodejs.org/) for more information.
 
 **Install TailwindCSS**
 
