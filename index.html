@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nicholas Heinrich</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="icon" type="image/x-icon" href="/Images/Avatar.webp" />
+        <meta name="description" content="A personal website developed by Nicholas Heinrich" />
+        <title>Nicholas Heinrich</title>
+        <style>
+            html,
+            body {
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+        </style>
+    </head>
+    <body class="bg-gray-900 px-6">
+        <!-- Navigation/Header bar -->
+        <nav class="flex items-center p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <img class="h-8 max-w-8 rounded-xl" src="Images/Avatar.webp" alt="" />
+                </a>
+            </div>
+            <div class="lg:flex lg:gap-x-12 space-x-4 text-gray-400">
+                <a></a>
+                <a href="#Revamp" class="text-sm font-semibold leading-6">Revamp</a>
+                <a href="#HackTheBox" class="text-sm font-semibold leading-6">Security</a>
+                <a href="#Projects" class="text-sm font-semibold leading-6">Projects</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                <div class="footer-social flex flex-row items-center space-x-6 text-gray-400">
+                    <a target="_blank" href="mailto:nicholas@nicholasheinrich.tech" class="social-icon text-xl"><i class="fas fa-envelope"></i></a>
+                    <a target="_blank" href="https://github.com/HeadphoneDent/" class="social-icon text-xl"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/nicholas-heinrich-95454b289/" class="social-icon text-xl"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/heinrich_nicholas/" class="social-icon text-xl"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://steamcommunity.com/id/headphonedent/" class="social-icon text-xl"><i class="fab fa-steam"></i></a>
+                    <a target="_blank" href="https://open.spotify.com/user/bnlt5n8p4mjilwr61cr7eqora?si=17e913ca21c74212" class="social-icon text-xl"><i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Introduction -->
+        <div class="relative isolate px-6 pt-14 lg:px-8 -z-10">
+            <div class="absolute inset-x -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+                <div
+                    class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] bg-gradient-to-r from-[#00efe1] to-[#9089fc] opacity-30 sm:w-[72.1875rem]"
+                    style="
+                        clip-path: polygon(
+                            74.1% 44.1%,
+                            100% 61.6%,
+                            97.5% 26.9%,
+                            85.5% 0.1%,
+                            80.7% 2%,
+                            72.5% 32.5%,
+                            60.2% 62.4%,
+                            52.4% 68.1%,
+                            47.5% 58.3%,
+                            45.2% 34.5%,
+                            27.5% 76.7%,
+                            0.1% 64.9%,
+                            17.9% 100%,
+                            27.6% 76.8%,
+                            76.1% 97.7%,
+                            74.1% 44.1%
+                        );
+                    "
+                ></div>
+            </div>
+        </div>
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+            <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div class="lg:pr-4">
+                    <div class="lg:max-w-lg px-6">
+                        <h1 class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r from-[#00efe1] to-[#9089fc] text-transparent bg-clip-text">Welcome 👋</h1>
+                        <br />
+                        <p class="mt-5 text-xl leading-8 text-[#9ca3af]">
+                            Welcome to my personal website! This site is a passion project of mine, aimed at getting back into some web development. Here, you'll find a collection of links and
+                            information showcasing some of my work and projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                <img class="w-full max-w-screen-sm rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="Images/hackthebox-profile.png" alt="" />
+            </div>
+            <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div class="lg:pr-4">
+                    <div class="max-w-xl text-base leading-7 text-[#9ca3af] lg:max-w-lg">
+                        <ul role="list" class="mt-8 space-y-8 text-gray-600">
+                            <li class="flex gap-x-3">
+                                <i class="fa-solid fa-cloud-arrow-up mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"></i>
+                                <span
+                                    ><strong class="font-semibold text-gray-300">Self-hosted.</strong> This site is hosted and configured by me, leveraging resources various resources to maintain the
+                                    infrastructure.</span
+                                >
+                            </li>
+                            <li class="flex gap-x-3">
+                                <i class="fa-solid fa-fingerprint mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"></i>
+                                <span
+                                    ><strong class="font-semibold text-gray-300">Security measures.</strong> This site has a multitude of security measures in place, including SSL certificates, SSH
+                                    hardening, and more.</span
+                                >
+                            </li>
+                            <li class="flex gap-x-3">
+                                <i class="fa-brands fa-github mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"></i>
+                                <span
+                                    ><strong class="font-semibold text-gray-300">Open Source.</strong> The code for this website is open source, available for anyone to copy, modify, and use for their
+                                    own projects.</span
+                                >
+                            </li>
+                        </ul>
+                        <br /><br />
+                        <p>
+                            As a high school student and part of the Flinders Extension program studying Computer Science, I’m kept pretty busy. Even so, I’ll still find ways to procrastinate and make
+                            projects like this website, or study areas of ethical hacking and cybersecurity.
+                        </p>
+                        <p class="mt-8">
+                            Hopefully, this website will keep you entertained or maybe even inspire you to create your own. If you need to contact me, use the form below and I'll be in touch.
+                        </p>
+                        <div class="mt-10 flex items-center justify-center gap-x-6">
+                            <a
+                                href="#Contact"
+                                class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                >Contact Me</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <!-- About Me -->
+        <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8" id="AboutMe">
+            <div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+                <svg
+                    viewBox="0 0 1024 1024"
+                    class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+                    aria-hidden="true"
+                >
+                    <circle cx="512" cy="512" r="512" fill="#00efe1" fill-opacity="0.7" />
+                    <defs>
+                        <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+                            <stop stop-color="#7775D6" />
+                            <stop offset="1" stop-color="#E935C1" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+                <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
+                    <div class="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2">
+                        <div class="relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1">
+                            <h1 class="mt-1 sm:text-4xl font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">About Me</h1>
+                        </div>
+                        <div class="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
+                            <img src="Images/kali-desktop.jpg" alt="" class="w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy" />
+                            <img
+                                src="Images/hackthebox.png"
+                                alt=""
+                                class="hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32"
+                                loading="lazy"
+                            />
+                            <img src="Images/Avatar.webp" alt="" class="hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy" />
+                        </div>
+                        <div class="lg:col-start-1 lg:row-start-3 lg:row-end-4">
+                            <div class="footer-social flex flex-row items-center space-x-6 text-gray-400">
+                                <a target="_blank" href="mailto:nicholas@nicholasheinrich.tech" class="social-icon text-xl"><i class="fas fa-envelope"></i></a>
+                                <a target="_blank" href="https://github.com/HeadphoneDent/" class="social-icon text-xl"><i class="fab fa-github"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/nicholas-heinrich-95454b289/" class="social-icon text-xl"><i class="fab fa-linkedin-in"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/heinrich_nicholas/" class="social-icon text-xl"><i class="fab fa-instagram"></i></a>
+                                <a target="_blank" href="https://steamcommunity.com/id/headphonedent/" class="social-icon text-xl"><i class="fab fa-steam"></i></a>
+                                <a target="_blank" href="https://open.spotify.com/user/bnlt5n8p4mjilwr61cr7eqora?si=17e913ca21c74212" class="social-icon text-xl"><i class="fab fa-spotify"></i></a>
+                            </div>
+                        </div>
+                        <p class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
+                            As mentioned, I'm lucky to be part of the Flinders Extension program, which lets me swap out some high school subjects for university-level topics. I'm studying Computer
+                            Science and focusing on cybersecurity, hoping one day to become an ethical hacker.<br />In my free time, you'll usually find me working on a project or tackling a CTF
+                            competition, primarily on HackTheBox. The first image you see when you enter this site shows my profile stats—you can easily spot when I've had time during the holidays.
+                        </p>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <!-- Website Revamp -->
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+            <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+                <div
+                    class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#00efe1] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                    style="
+                        clip-path: polygon(
+                            74.1% 44.1%,
+                            100% 61.6%,
+                            97.5% 26.9%,
+                            85.5% 0.1%,
+                            80.7% 2%,
+                            72.5% 32.5%,
+                            60.2% 62.4%,
+                            52.4% 68.1%,
+                            47.5% 58.3%,
+                            45.2% 34.5%,
+                            27.5% 76.7%,
+                            0.1% 64.9%,
+                            17.9% 100%,
+                            27.6% 76.8%,
+                            76.1% 97.7%,
+                            74.1% 44.1%
+                        );
+                    "
+                ></div>
+            </div>
+            <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56" id="Revamp">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold tracking-tight text-gray-200 sm:text-6xl">Redesigned with a new Framework</h1>
+                    <p class="mt-6 text-lg leading-8 text-[#9ca3af]">
+                        While the original was built with raw HTML and CSS, this new version utilizes the TailwindCSS framework for a sleek, aesthetic design and optimized performance.
+                    </p>
+                    <p class="mt-6 text-lg leading-8 text-[#9ca3af]">All the code is linked, and is free to use or modify for yourself</p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6">
+                        <a
+                            href="https://github.com/HeadphoneDent/NicholasHeinrich.tech"
+                            target="_blank"
+                            class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            >Read the code</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="absolute inset-x-0 top-[calc(100%-13rem)] pointer-events-none -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+                <div
+                    class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#00efe1] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+                    style="
+                        clip-path: polygon(
+                            74.1% 44.1%,
+                            100% 61.6%,
+                            97.5% 26.9%,
+                            85.5% 0.1%,
+                            80.7% 2%,
+                            72.5% 32.5%,
+                            60.2% 62.4%,
+                            52.4% 68.1%,
+                            47.5% 58.3%,
+                            45.2% 34.5%,
+                            27.5% 76.7%,
+                            0.1% 64.9%,
+                            17.9% 100%,
+                            27.6% 76.8%,
+                            76.1% 97.7%,
+                            74.1% 44.1%
+                        );
+                    "
+                ></div>
+            </div>
+        </div>
+
+        <!-- HackTheBox -->
+        <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+            <div class="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+                <svg
+                    viewBox="0 0 1024 1024"
+                    class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+                    aria-hidden="true"
+                >
+                    <circle cx="512" cy="512" r="512" fill="#00efe1" fill-opacity="0.7" />
+                    <!--#6eaca8-->
+                    <defs>
+                        <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+                            <stop stop-color="#7775D6" />
+                            <stop offset="1" stop-color="#E935C1" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+                <div id="HackTheBox"></div>
+                <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">HackTheBox</h2>
+                    <p class="mt-6 text-lg leading-8 text-gray-300">
+                        The hacking platform where I spent the majority of my free time. It has intentionally vulnerable networks that let you practice your hacking skills against live targets,
+                        legally. Currently, I'm somewhere in the top 900 out of around 3 million users worldwide. Unfortunately, I’ve been caught up a bit so my profile is a bit blank, but hopefully,
+                        I’ll be able to rank higher once school is out.
+                    </p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                        <a
+                            target="_blank"
+                            href="https://app.hackthebox.com/profile/1338701"
+                            class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                            >See profile</a
+                        >
+                        <a href="https://www.hackthebox.com/" target="_blank" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+                <div class="relative mt-16 h-80 lg:mt-8">
+                    <img
+                        class="absolute left-0 bottom-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10 h-fit"
+                        src="Images/hackthebox-edit.png"
+                        alt="App screenshot"
+                        width="1824"
+                        height="1080"
+                    />
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <br id="Projects" /><br /><br /><br />
+        <div class="max-w-7xl mx-auto text-gray-200 z-50" id="Projects">
+            <h2 class="sm:text-4xl text-2xl font-extrabold text-center mb-16">Projects</h2>
+            <br /><br />
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 max-md:max-w-lg mx-auto">
+                <div class="rounded-xl group p-8 text-center hover:bg-gray-200 hover:text-[#9089fc] hover:shadow-xl transition duration-300">
+                    <a class="social-icon text-xl"><i class="fa-solid fa-network-wired"></i></a>
+                    <h3 class="text-xl font-semibold mb-2">Website</h3>
+                    <p class="text-gray-300 group-hover:text-gray-500 text-sm">Developed and deployed this site</p>
+                </div>
+                <div class="rounded-xl group p-8 text-center hover:bg-gray-200 hover:text-[#9089fc] hover:shadow-xl transition duration-300">
+                    <a class="social-icon text-xl"><i class="fa-solid fa-lock"></i></a>
+                    <h3 class="text-xl font-semibold mb-2">TPOT</h3>
+                    <p class="text-gray-300 group-hover:text-gray-500 text-sm">Gathered data from malicious actors and botnets</p>
+                </div>
+                <div class="rounded-xl group p-8 text-center hover:bg-gray-200 hover:text-[#9089fc] hover:shadow-xl transition duration-300">
+                    <a class="social-icon text-xl"><i class="fa-brands fa-python"></i></a>
+                    <h3 class="text-xl font-semibold mb-2">Python Scanner</h3>
+                    <p class="text-gray-300 group-hover:text-gray-500 text-sm">Programmed a Python network scanning tool</p>
+                </div>
+                <div class="rounded-xl group p-8 text-center hover:bg-gray-200 hover:text-[#9089fc] hover:shadow-xl transition duration-300">
+                    <a class="social-icon text-xl"><i class="fa-solid fa-flag-checkered"></i></a>
+                    <h3 class="text-xl font-semibold mb-2">HackTheBox</h3>
+                    <p class="text-gray-300 group-hover:text-gray-500 text-sm">One of the top 900 hackers on the platform</p>
+                </div>
+                <div class="rounded-xl group p-8 text-center hover:bg-gray-200 hover:text-[#9089fc] hover:shadow-xl transition duration-300">
+                    <a class="social-icon text-xl"><i class="fa-solid fa-laptop-code"></i></a>
+                    <h3 class="text-xl font-semibold mb-2">Cryptography</h3>
+                    <p class="text-gray-300 group-hover:text-gray-500 text-sm">Perform various cryptography CTF's for my team</p>
+                </div>
+                <div class="rounded-xl group p-8 text-center hover:bg-gray-200 hover:text-[#9089fc] hover:shadow-xl transition duration-300">
+                    <a class="social-icon text-xl"><i class="fa-solid fa-virus-covid"></i></a>
+                    <h3 class="text-xl font-semibold mb-2">Malware</h3>
+                    <p class="text-gray-300 group-hover:text-gray-500 text-sm">Developed basic Python malware against Windows</p>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+
+        <!-- Contact -->
+        <div class="items-center max-w-6xl mx-auto py-6 -z-50" id="Contact">
+            <div class="relative isolate px-6 pt-14 lg:px-8">
+                <div class="absolute inset-x -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 pointer-events-none" aria-hidden="true">
+                    <div
+                        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] bg-gradient-to-r from-[#00efe1] to-[#9089fc] opacity-30 sm:w-[72.1875rem]"
+                        style="
+                            clip-path: polygon(
+                                    74.1% 44.1%,
+                                    100% 61.6%,
+                                    97.5% 26.9%,
+                                    85.5% 0.1%,
+                                    80.7% 2%,
+                                    72.5% 32.5%,
+                                    60.2% 62.4%,
+                                    52.4% 68.1%,
+                                    47.5% 58.3%,
+                                    45.2% 34.5%,
+                                    27.5% 76.7%,
+                                    0.1% 64.9%,
+                                    17.9% 100%,
+                                    27.6% 76.8%,
+                                    76.1% 97.7%,
+                                    74.1% 44.1%
+                                )
+                                pointer-events-none;
+                        "
+                    ></div>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-3xl lg:col-span-2 p-10 max-sm:px-6 flex flex-col justify-center max-md:mt-12">
+                <h2 class="text-2xl text-blue-500 font-bold">Contact Me</h2>
+                <p class="text-sm text-gray-400 mt-4">Need to contact me about an idea or project? Use the form below and I'll be in touch 😁</p>
+                <!-- Form using Pageclip -->
+                <form action="https://send.pageclip.co/y6aoxZEcDO4ml2hw4W3MWrgtM6s5pcY4" method="post" data-pageclip-no-pop>
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        name="Full Name"
+                        class="space-y-4 mt-8 w-full rounded-md border-0 bg-white/5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    />
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        name="Email"
+                        class="space-y-4 mt-8 w-full rounded-md border-0 bg-white/5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    />
+                    <textarea
+                        placeholder="Write Message"
+                        name="Message"
+                        class="space-y-4 mt-8 w-full h-[100px] rounded-md border-0 bg-white/5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                    ></textarea>
+                    <button
+                        type="submit"
+                        class="mt-8 flex items-center justify-center text-sm w-full rounded px-4 py-2.5 font-semibold bg-blue-600 text-white hover:bg-blue-700 pageclip-form__submit--dark-loader"
+                    >
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer bar -->
+        <nav class="flex items-center p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <img class="h-8 max-w-8 rounded-xl" src="Images/Avatar.webp" alt="" />
+                </a>
+            </div>
+            <div class="lg:flex lg:gap-x-12 space-x-4 text-gray-400">
+                <a></a>
+                <a href="#Revamp" class="text-sm font-semibold leading-6">Revamp</a>
+                <a href="#HackTheBox" class="text-sm font-semibold leading-6">Security</a>
+                <a href="#Projects" class="text-sm font-semibold leading-6">Projects</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                <div class="footer-social flex flex-row items-center space-x-6 text-gray-400">
+                    <a target="_blank" href="mailto:nicholas@nicholasheinrich.tech" class="social-icon text-xl"><i class="fas fa-envelope"></i></a>
+                    <a target="_blank" href="https://github.com/HeadphoneDent/" class="social-icon text-xl"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/nicholas-heinrich-95454b289/" class="social-icon text-xl"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/heinrich_nicholas/" class="social-icon text-xl"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://steamcommunity.com/id/headphonedent/" class="social-icon text-xl"><i class="fab fa-steam"></i></a>
+                    <a target="_blank" href="https://open.spotify.com/user/bnlt5n8p4mjilwr61cr7eqora?si=17e913ca21c74212" class="social-icon text-xl"><i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Plausible for privacy friendly analytics -->
+        <script defer data-domain="nicholasheinrich.tech" src="https://plausible.io/js/script.js"></script>
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    </body>
+</html>

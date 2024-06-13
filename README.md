@@ -1,8 +1,21 @@
-# NicholasHeinrich.tech
+# Website
 
-This is where the code for [NicholasHeinrich.tech](https://NicholasHeinrich.tech/) will be kept. 
-Feel free to take modify and adjust the code for your project or needs.
+> This website is live and visible at [NicholasHeinrich.tech](https://nicholasheinrich.tech). Use this repository to edit the code.
+
+## Modify
+
+Modifying the code requires NodeJs to be installed. Reference their [page](https://nodejs.org/) for more information.
+
+**Install TailwindCSS**
 
 ```
-Currently the site is still in development, but I'll publish it here and any additional resources for it.
+npm install -D tailwindcss
 ```
+
+**Run TailwindCSS**
+
+```
+npx tailwindcss -i ./src/style.css -o ./style.css --watch
+```
+
+The above code will run an instance of TailwindCSS that automatically adds and removes CSS styling to the `./style.css` file.
