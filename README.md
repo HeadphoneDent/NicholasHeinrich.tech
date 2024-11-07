@@ -1,12 +1,10 @@
 # Website
 
-> Website is currently down. Feel free to use the index.html and style.css to view it (for now)
-<!--
 > This website is live and visible at [NicholasHeinrich.tech](https://nicholasheinrich.tech). Use this repository to edit the code.
--->
+
 ## Modify
 
-Modifying the code requires nodejs to be installed. Reference their [page](https://nodejs.org/) for more information.
+Modifying the code requires NodeJs to be installed. Reference their [page](https://nodejs.org/) for more information.
 
 **Install TailwindCSS**
 
